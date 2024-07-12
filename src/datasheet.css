@@ -1,0 +1,80 @@
+.form-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+label {
+  color: #666;
+  font-size: 14px;
+}
+
+input[type="text"], input[type="date"], input[type="number"], .method-select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  margin-left: 10px;
+}
+
+input[type="text"]:first-child, input[type="date"]:first-child, input[type="number"]:first-child, .method-select:first-child {
+  margin-left: 0;
+}
+
+.method-section {
+  border-top: 2px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.method-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.method-group label, .method-group input, .method-group .method-select, .method-group button {
+  margin-right: 10px;
+}
+
+.method-group label {
+  flex: 2;
+}
+
+.method-group input {
+  flex: 1;
+}
